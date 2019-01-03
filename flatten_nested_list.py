@@ -19,7 +19,7 @@ def flattenList(elem):
         flattenedList.append(int(i))
     return flattenedList
 
-print("--------SumElements with Regex-----------")
+print("-------- Regex Solution ------------")
 print(flattenList(nestedList))
 
 #Recursive approach
@@ -32,5 +32,5 @@ def flattenListRecursive(elem):
             flattenedList += flattenListRecursive(i)
     return flattenedList
 
-print("--------SumElements with Recursion--------")
+print("-------- Recursive Solution --------")
 print(flattenListRecursive(nestedList))
