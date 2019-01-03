@@ -4,5 +4,5 @@ A collection of coding problems from coding challenges and other random sources,
 
 | Problem                                                   | Suggested Soltion |
 | --------------------------------------------------------- | ---------------------|
-| Flattening nested list with arbitary depth of sub-arrays  | [Python Solution] ()      |
+| Flattening nested list with arbitary depth of sub-arrays  | [Python Solution] (https://github.com/kkkoech/challenges/blob/master/flatten_nested_list.py)      |
 | Content Cell                                              | Content Cell      |
