@@ -7,31 +7,30 @@ nestedList = ['a', 1, 2, [3, 'b', 4, [5, 6, 'c']], 'd', 7, [8, 9]]
 
 #Regex solution
 import re 
-def sumElements(elem):
+def flattenList(elem):
     #convert nested list to a string:
     stringList = "%s"%(nestedList)
     
     #Using Regex to search for ints in the resulting string
     stringList = re.sub(r'\D', "", stringList)
     
-    sumElems = 0
+    flattenedList = []
     for i in stringList:
-        sumElems += int(i)
-    return sumElems 
+        flattenedList.append(int(i))
+    return flattenedList
 
 print("--------SumElements with Regex-----------")
-print(sumElements(nestedList))
+print(flattenList(nestedList))
 
 #Recursive approach
-def sumElementsRecursive(elem):
-    sumElems = 0
-    i = 0
+def flattenListRecursive(elem):
+    flattenedList = []
     for i in elem:
         if isinstance(i, int):
-            sumElems += i
+            flattenedList.append(i)
         elif isinstance(i, list):
-            sumElems += sumElementsRecursive(i)
-    return sumElems
+            flattenedList += flattenListRecursive(i)
+    return flattenedList
 
 print("--------SumElements with Recursion--------")
-print(sumElementsRecursive(nestedList))
+print(flattenListRecursive(nestedList))
