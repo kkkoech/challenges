@@ -35,8 +35,7 @@ def flattenListRecursive(elem):
 print("-------- Recursive Solution --------")
 print(flattenListRecursive(nestedList))
 
-
-print("Alex's Solution")
+#Recursive approach 2
 def sum_array(xs):
     """
     xs: list
