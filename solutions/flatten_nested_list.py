@@ -37,3 +37,21 @@ print(flattenListRecursive(nestedList))
 
 
 print("Alex's Solution")
+def sum_array(xs):
+    """
+    xs: list
+    returns: sum of all numeric elements in xs
+    """
+    i=0
+    sum=0
+    while i<len(xs):
+        if type(xs[i])==int:
+            sum+=xs[i]
+        elif type(xs[i])==list:
+            sum+=sum_array(xs[i])
+        i+=1
+    return sum
+
+print("SUM ARRAY TEST")
+print(sum_array(['a',1,2,[3,'b',4,[5,6,'c']],'d',7,[8,9]]))
+print(sum_array([1,2,3,4]))
