@@ -34,3 +34,7 @@ def flattenListRecursive(elem):
 
 print("-------- Recursive Solution --------")
 print(flattenListRecursive(nestedList))
+
+
+#Recursive solution 2
+
