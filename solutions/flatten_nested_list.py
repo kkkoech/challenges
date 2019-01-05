@@ -36,21 +36,22 @@ print("-------- Recursive Solution --------")
 print(flattenListRecursive(nestedList))
 
 #Recursive approach 2
-def sum_array(xs):
+def flatten_array(xs):
     """
     xs: list
     returns: sum of all numeric elements in xs
     """
     i=0
-    sum=0
+    flattened_array = []
     while i<len(xs):
         if type(xs[i])==int:
-            sum+=xs[i]
+            flattened_array.append(xs[i])
         elif type(xs[i])==list:
-            sum+=sum_array(xs[i])
+            flattened_array += flatten_array(xs[i])
         i+=1
-    return sum
+    return flattened_array
 
-print("SUM ARRAY TEST")
-print(sum_array(['a',1,2,[3,'b',4,[5,6,'c']],'d',7,[8,9]]))
-print(sum_array([1,2,3,4]))
+print("-------- Recursive Solution --------")
+print(flatten_array(nestedList))
+print(flatten_array(['a',1,2,[3,'b',4,[5,6,'c']],'d',7,[8,9]]))
+print(flatten_array([1,2,3,4]))
