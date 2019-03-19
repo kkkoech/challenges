@@ -1,6 +1,12 @@
 
 #This is a recursive solution 
+#Solution 1
 
+
+
+
+
+#Solution 2
 #returns index of list where it starts to decrease
 def decrease_index(l):
     if l == []:
