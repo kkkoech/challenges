@@ -1,5 +1,5 @@
 # challenges
-A collection of coding problems from coding challenges and other random sources, and their suggested solutions. 
+A collection of coding problems from the [Euler Project](https://projecteuler.net/) and coding challenges from random sources, and their suggested solutions. 
 
 
 | Problem                                                   | Suggested Solution                                     |
