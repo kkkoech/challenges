@@ -61,3 +61,5 @@ def addBinary(a, b):
         x -= 1
     ans = [str(quot)] + ans
     return ''.join(ans)
+
+print(addBinary('1111', '111'))
