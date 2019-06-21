@@ -37,3 +37,27 @@ def add_binary(a,b):
 print(add_binary("0","0"))
 print(add_binary("1","1"))
 print(add_binary("111","100"))
+
+
+# Solution 2
+def addBinary(a, b):
+    list1 = list(a)
+    list2 = list(b)
+    x = -1
+    ans = []
+    quot = 0
+    
+    for i in range(max([len(list1), len(list2)])):
+        try:
+            ans = [str((int(list1[x]) + int(list2[x]) + quot) % 2)] + ans
+            quot = (int(list1[x]) + int(list2[x]) + quot) // 2
+        except:
+            try:
+                ans = [str((int(list1[x]) + quot) % 2)] + ans
+                quot = (int(list1[x]) + quot) // 2
+            except:
+                ans = [str((int(list2[x]) + quot) % 2)] + ans
+                quot = (int(list2[x]) + quot) // 2
+        x -= 1
+    ans = [str(quot)] + ans
+    return ''.join(ans)
