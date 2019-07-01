@@ -8,3 +8,4 @@ A collection of coding problems from the [Euler Project](https://projecteuler.ne
 |Longest upsequence of a list                               | [Python Solution](solutions/longest_upsequence.py)     |
 | Add binary                                                | [Python Solution](solutions/add-binary.py)<br/>[Julia Solution](solutions/add-binary.jl)             |  
 | Open the lock                                             | [Python Solution](solutions/open-lock.py)<br/>[Julia Solution](solutions/open-lock.jl)              |
+| camelCase                                                 | [Python Solution](solutions/camel_case.py)<br/>[Julia Solution](solutions/camel_case.jl)             |
