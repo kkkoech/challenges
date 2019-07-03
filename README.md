@@ -9,3 +9,4 @@ A collection of coding problems from the [Euler Project](https://projecteuler.ne
 | Add binary                                                | [Python Solution](solutions/add-binary.py)<br/>[Julia Solution](solutions/add-binary.jl)             |  
 | Open the lock                                             | [Python Solution](solutions/open-lock.py)<br/>[Julia Solution](solutions/open-lock.jl)              |
 | camelCase                                                 | [Python Solution](solutions/camel_case.py)<br/>[Julia Solution](solutions/camel_case.jl)             |
+| Maximum number of pizza slices given the number of cuts   | [Python Solution](solutions/pizza_slices.py)<br/>[Julia Solution](solutions/pizza_slices.jl)           |
