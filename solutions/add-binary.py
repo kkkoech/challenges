@@ -38,8 +38,7 @@ print(add_binary("0","0"))
 print(add_binary("1","1"))
 print(add_binary("111","100"))
 
-
-# Solution 2
+# solution II
 def addBinary(a, b):
     list1 = list(a)
     list2 = list(b)
