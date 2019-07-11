@@ -1,6 +1,7 @@
-#Euler Project and other challenges
+# Euler Project and other challenges
 A collection of coding problems from the [Euler Project](https://projecteuler.net/) and coding challenges from random sources, and their suggested solutions. 
 
+[This](solutions/leetcode-problems) and this script helps us post the problems into a [Slack Channel](https://join.slack.com/t/euler-workspace/shared_invite/enQtNjkzMjA2NTE5OTc0LWEzNDFhNzNjOTBlZjMyNDA0NGQzMzMzNzlhMmNjNmI4ZjRhM2I1YzZkYzBkOTQ3MjdhOTNhOTBmMjAwNDk3ZGQ) where a few friends and I try to solve them and ocasionally post our suggested solutions on this repository. 
 
 | Problem                                                   | Suggested Solution                                     |
 | --------------------------------------------------------- | -------------------------------------------------------|
