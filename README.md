@@ -1,4 +1,4 @@
-# challenges
+#Euler Project and other challenges
 A collection of coding problems from the [Euler Project](https://projecteuler.net/) and coding challenges from random sources, and their suggested solutions. 
 
 
