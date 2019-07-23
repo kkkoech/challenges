@@ -20,9 +20,9 @@ def ideals(l,r):
             return recursive_divide(quot)
         else:
             return int(n)
+          
     num_range = [i for i in range(l,r+1)]
-    #ideals = list(map(lambda x: x if recursive_divide(x)==1 else None, num_range))
-    
+     
     ideals = []
     for num in num_range:
         if recursive_divide(num) == 1:
@@ -30,5 +30,3 @@ def ideals(l,r):
     return len(ideals)
 
 print(ideals(1,1))
-
-
